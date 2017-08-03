@@ -36,6 +36,6 @@ public class HelloWorld {
     public String add(String username, String password) {
         User user = new User(username, password);
         userService.save(user);
-        return "ok";
+        return "ok ";
     }
 }
